@@ -1,0 +1,118 @@
+{
+  "version": "1.0",
+  "projectId": "mactype",
+  "projectPath": "/Volumes/Smile-Data/MainData/Project-Nest/MacType",
+  "activePlanIds": [],
+  "planCursor": null,
+  "plans": {
+    "mactype-mvp": {
+      "planId": "mactype-mvp",
+      "projectId": "mactype",
+      "projectPath": "/Volumes/Smile-Data/MainData/Project-Nest/MacType",
+      "title": "Mactype MVP 開發計畫",
+      "state": "COMPLETED",
+      "owner": "arch",
+      "priority": "high",
+      "createdAt": "2026-05-19T09:11:56.002Z",
+      "updatedAt": "2026-05-20T08:20:52.057Z",
+      "taskIds": [
+        "mactype-phase-1-skeleton",
+        "mactype-phase-2-english-core",
+        "mactype-phase-3-keyboard",
+        "mactype-phase-4-weak-finger",
+        "mactype-phase-5-zhuyin",
+        "mactype-phase-6-stats-storage"
+      ],
+      "finishedTaskIds": [],
+      "dependencyGraph": {
+        "nodes": [
+          {
+            "id": "mactype-phase-1-skeleton",
+            "taskId": "mactype-phase-1-skeleton",
+            "title": "Phase 1：建立 SwiftUI macOS 專案骨架"
+          },
+          {
+            "id": "mactype-phase-2-english-core",
+            "taskId": "mactype-phase-2-english-core",
+            "title": "Phase 2：英文練習核心"
+          },
+          {
+            "id": "mactype-phase-3-keyboard",
+            "taskId": "mactype-phase-3-keyboard",
+            "title": "Phase 3：虛擬鍵盤"
+          },
+          {
+            "id": "mactype-phase-4-weak-finger",
+            "taskId": "mactype-phase-4-weak-finger",
+            "title": "Phase 4：弱指訓練"
+          },
+          {
+            "id": "mactype-phase-5-zhuyin",
+            "taskId": "mactype-phase-5-zhuyin",
+            "title": "Phase 5：注音鍵位練習"
+          },
+          {
+            "id": "mactype-phase-6-stats-storage",
+            "taskId": "mactype-phase-6-stats-storage",
+            "title": "Phase 6：本地統計儲存與 Dashboard/Stats 真實資料"
+          }
+        ],
+        "edges": [
+          {
+            "source": "mactype-phase-1-skeleton",
+            "target": "mactype-phase-2-english-core",
+            "type": "depends_on"
+          },
+          {
+            "source": "mactype-phase-2-english-core",
+            "target": "mactype-phase-3-keyboard",
+            "type": "depends_on"
+          },
+          {
+            "source": "mactype-phase-2-english-core",
+            "target": "mactype-phase-4-weak-finger",
+            "type": "depends_on"
+          },
+          {
+            "source": "mactype-phase-2-english-core",
+            "target": "mactype-phase-5-zhuyin",
+            "type": "depends_on"
+          },
+          {
+            "source": "mactype-phase-2-english-core",
+            "target": "mactype-phase-6-stats-storage",
+            "type": "depends_on"
+          },
+          {
+            "source": "mactype-phase-4-weak-finger",
+            "target": "mactype-phase-6-stats-storage",
+            "type": "depends_on"
+          },
+          {
+            "source": "mactype-phase-5-zhuyin",
+            "target": "mactype-phase-6-stats-storage",
+            "type": "depends_on"
+          }
+        ]
+      },
+      "history": [
+        "| 2026-05-19T09:11:56.002Z | (NEW) → DRAFT | arch | 建立 Plan |",
+        "| 2026-05-19T09:12:27.254Z | CONTENT_CREATE | system | version=1 |",
+        "| 2026-05-19T09:12:31.368Z | DRAFT → PLANNED | arch | 狀態轉換 |",
+        "| 2026-05-19T09:14:47.265Z | CONTENT_UPDATE | system | version=2 | taskId=full |",
+        "| 2026-05-19T09:32:42.188Z | PLANNED → IN_PROGRESS | build | 狀態轉換 |",
+        "| 2026-05-19T09:32:42.202Z | TASK_CONTENT_UPDATE | system | taskId=mactype-phase-1-skeleton |",
+        "| 2026-05-19T15:52:15.797Z | TASK_CONTENT_UPDATE | system | taskId=mactype-phase-2-english-core |",
+        "| 2026-05-19T16:04:41.674Z | TASK_CONTENT_UPDATE | system | taskId=mactype-phase-3-keyboard |",
+        "| 2026-05-19T16:24:58.650Z | TASK_CONTENT_UPDATE | system | taskId=mactype-phase-4-weak-finger |",
+        "| 2026-05-19T16:55:16.516Z | TASK_CONTENT_UPDATE | system | taskId=mactype-phase-5-zhuyin |",
+        "| 2026-05-20T08:19:26.291Z | TASK_CONTENT_UPDATE | system | taskId=mactype-phase-6-stats-storage |",
+        "| 2026-05-20T08:20:31.061Z | IN_PROGRESS → REVIEWING | — | 狀態轉換 |",
+        "| 2026-05-20T08:20:47.195Z | REVIEWING → ARCHIVING | — | 狀態轉換 |",
+        "| 2026-05-20T08:20:52.057Z | ARCHIVING → COMPLETED | — | 完成 Plan |"
+      ],
+      "contentRef": ".opencode/plans/mactype-mvp.md",
+      "contentVersion": 8
+    }
+  }
+}

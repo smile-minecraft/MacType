@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074EE648B17E03FB33EBD236 /* KeyNormalizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C6DF4CBB3E37F2BBB1D907 /* KeyNormalizerTests.swift */; };
+		0753D72E60AE224BCF5236FE /* TypingErrorRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9054600FBE9171FEAAB049AD /* TypingErrorRecord.swift */; };
+		1081427F1D73F44C85533E45 /* KeyboardKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27482E5462C8804A1B54C205 /* KeyboardKey.swift */; };
+		169E8E8D420D40499CE394C1 /* KeyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA889C39DE91FBC7E81BD94 /* KeyState.swift */; };
+		262EB532EF04457D31A9978F /* ZhuyinPracticeResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD8AE9C0358066EBD07DF9A /* ZhuyinPracticeResult.swift */; };
+		313780C64FBD0A41D97CD389 /* ZhuyinKeyMapService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1310806867C9548DC03CBC1A /* ZhuyinKeyMapService.swift */; };
+		335DDA22D5EA3AF56C417B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE6B53E05CBA5943566F86C /* Assets.xcassets */; };
+		3D38F195657D9D69E2B4F35D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4D87EF9D11ECC58ADC020 /* Models.swift */; };
+		3E0B79CCF3DE27E6DA94E6F1 /* KeyboardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D576DBD875DA762ED0109AD /* KeyboardLayout.swift */; };
+		47D81AE865A070FAADE5BA24 /* LessonGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9603440A6E493C230763C /* LessonGeneratorTests.swift */; };
+		4CBB11D7E6C2FB70BDC37DD5 /* PracticeResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3993D2559571E2CE5D0D8C8 /* PracticeResult.swift */; };
+		56B7A91C336E199C2A0724F7 /* KeyNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825FAB6F16BE82E837B6A79B /* KeyNormalizer.swift */; };
+		5847D6A1BC1CF16B937D7ADF /* ZhuyinKeyPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF132348A4F5360CB6A5608 /* ZhuyinKeyPracticeView.swift */; };
+		5CA6300BD05C4D6929696D8F /* zhuyin_keymap.json in Resources */ = {isa = PBXBuildFile; fileRef = 435BFF8FAFC1444DFBA2A3E4 /* zhuyin_keymap.json */; };
+		5E0BE364CADC80EA1D088FB5 /* ZhuyinLessonGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697080D34F58B3644AB7D2D3 /* ZhuyinLessonGeneratorTests.swift */; };
+		600549AD8021415378A1DAD2 /* ZhuyinPracticeEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6FEC7EAD0ADC6AAA026534 /* ZhuyinPracticeEngineTests.swift */; };
+		6274062B1B2BC1D792601E8F /* EnglishPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C310296E13736C3A983E3C /* EnglishPracticeView.swift */; };
+		6666B3740565BCC99AB80D2E /* StatsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A82C378163F6B86E93B1FA /* StatsStore.swift */; };
+		66C88575C02F940C1AD11817 /* WeakFingerPracticeEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4151CFC27B0BA782DE607421 /* WeakFingerPracticeEngineTests.swift */; };
+		855DBFD2D38D2DF418438821 /* Finger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB06D6B34548B763AAF09EC /* Finger.swift */; };
+		870CDAEDD1617C88229A6D81 /* ZhuyinKeyMapServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9083A80E06C49A5257CD73C /* ZhuyinKeyMapServiceTests.swift */; };
+		8ADAE6A3990BA93F9F0288CE /* TypingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B2819F85B7C7E59C125ED /* TypingMode.swift */; };
+		8D150422BA93B78CE8F762A7 /* FileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC237D9A787AC04C81252C55 /* FileStore.swift */; };
+		8F73247E63888CF02B15466C /* PracticeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD532B92B16835722F726761 /* PracticeEngine.swift */; };
+		9A10B9D81B172965D908DCDE /* ZhuyinSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE051951A0C875D73F54AB /* ZhuyinSymbol.swift */; };
+		9BE51FE7D6655CB037536225 /* WeakFingerPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050D3DE5F380DC5CB7BE1385 /* WeakFingerPracticeView.swift */; };
+		9E293B4EE51160B72BE037B8 /* KeyMapService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A236E15963A68F2C430BB92 /* KeyMapService.swift */; };
+		A3AB3B9625898BDBE204071F /* StatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CA29A41B8881B06A9374FE /* StatsTests.swift */; };
+		A6A9274CF75C7C0630782556 /* WeakFingerPracticeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3F1CF382F7241DF3B05081 /* WeakFingerPracticeEngine.swift */; };
+		A824CBF90C920A85A7434F5C /* ZhuyinPracticeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D136EF5418952C99947CFCA /* ZhuyinPracticeEngine.swift */; };
+		AA2A8F494178B6A0E88E3796 /* LessonGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A757613B9FDBC515F6D72181 /* LessonGenerator.swift */; };
+		AD66D055257A182B031848BC /* WeakFingerTargetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7C38D90E8C9D4FB1228E1 /* WeakFingerTargetTests.swift */; };
+		B19D79BF1023A31E8799BA26 /* PracticeEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90108D541A3DC6A41B9D5001 /* PracticeEngineTests.swift */; };
+		B36949C6132E421734617575 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A2FBA02A73FC47900CB22 /* StatsView.swift */; };
+		BCF043BC8604AC8D249A1077 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C9A705194E5544E4191834 /* DashboardView.swift */; };
+		BF9AF518E66E4519BDF9A7E2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9806B9B43B0DED14A5814B /* SettingsView.swift */; };
+		C4F0C5BEF257E493FD1E1EA6 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D48F9E6E3E545F5EFAC2A84 /* RootView.swift */; };
+		CA403589E4FF2C85B0CF2D8C /* MacTypeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B92544498F110334FF6437 /* MacTypeApp.swift */; };
+		D9FF63B1867E0B468F8C9110 /* finger_keymap.json in Resources */ = {isa = PBXBuildFile; fileRef = 04EDE2B062AFFDD3D67BB42B /* finger_keymap.json */; };
+		E1147D6D29CE8342E106A1CB /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D88730941D0428F79BC881 /* KeyboardView.swift */; };
+		E5746BDE0180E880C15E800E /* TypingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F405FAA872F28FEA4FADA3CD /* TypingTextField.swift */; };
+		E86F1E3D6D8711E6AFE4BC1A /* WeakFingerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B670E490E19CBF8FAD68811C /* WeakFingerResult.swift */; };
+		EFB44702A32C75D5F98F20B9 /* ZhuyinLessonGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B648F755BF6673082D2754 /* ZhuyinLessonGenerator.swift */; };
+		F34636B957A1571FE04F47F2 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81906F06E99D65B99E0BDB78 /* SidebarView.swift */; };
+		F4FF5BBD3EE9F9ABF6233236 /* KeyStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704A65EF71A4413D09721D23 /* KeyStateTests.swift */; };
+		F5896B804192E74342A6AED7 /* KeyMapServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758269DF967F241E81B5B74C /* KeyMapServiceTests.swift */; };
+		FB80E5B3A114085E6DCBC3CB /* WeakFingerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B7B128396F78BA917A2772 /* WeakFingerTarget.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35425C0D33875E2905574D81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC5CF57934B15E0193AAF4F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81273A98F77FE02AD7052235;
+			remoteInfo = MacType;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EDE2B062AFFDD3D67BB42B /* finger_keymap.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = finger_keymap.json; sourceTree = "<group>"; };
+		050D3DE5F380DC5CB7BE1385 /* WeakFingerPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakFingerPracticeView.swift; sourceTree = "<group>"; };
+		0D576DBD875DA762ED0109AD /* KeyboardLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayout.swift; sourceTree = "<group>"; };
+		1310806867C9548DC03CBC1A /* ZhuyinKeyMapService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhuyinKeyMapService.swift; sourceTree = "<group>"; };
+		21F9603440A6E493C230763C /* LessonGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonGeneratorTests.swift; sourceTree = "<group>"; };
+		27482E5462C8804A1B54C205 /* KeyboardKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardKey.swift; sourceTree = "<group>"; };
+		2A236E15963A68F2C430BB92 /* KeyMapService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyMapService.swift; sourceTree = "<group>"; };
+		2CB7C38D90E8C9D4FB1228E1 /* WeakFingerTargetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakFingerTargetTests.swift; sourceTree = "<group>"; };
+		2D136EF5418952C99947CFCA /* ZhuyinPracticeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhuyinPracticeEngine.swift; sourceTree = "<group>"; };
+		30B648F755BF6673082D2754 /* ZhuyinLessonGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhuyinLessonGenerator.swift; sourceTree = "<group>"; };
+		331A2FBA02A73FC47900CB22 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		4151CFC27B0BA782DE607421 /* WeakFingerPracticeEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakFingerPracticeEngineTests.swift; sourceTree = "<group>"; };
+		435BFF8FAFC1444DFBA2A3E4 /* zhuyin_keymap.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = zhuyin_keymap.json; sourceTree = "<group>"; };
+		48C310296E13736C3A983E3C /* EnglishPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishPracticeView.swift; sourceTree = "<group>"; };
+		4CF132348A4F5360CB6A5608 /* ZhuyinKeyPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhuyinKeyPracticeView.swift; sourceTree = "<group>"; };
+		5C6FEC7EAD0ADC6AAA026534 /* ZhuyinPracticeEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhuyinPracticeEngineTests.swift; sourceTree = "<group>"; };
+		5D48F9E6E3E545F5EFAC2A84 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		5EBE051951A0C875D73F54AB /* ZhuyinSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhuyinSymbol.swift; sourceTree = "<group>"; };
+		66A82C378163F6B86E93B1FA /* StatsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsStore.swift; sourceTree = "<group>"; };
+		682D3CF58ABD10928EF4C8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		697080D34F58B3644AB7D2D3 /* ZhuyinLessonGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhuyinLessonGeneratorTests.swift; sourceTree = "<group>"; };
+		69B92544498F110334FF6437 /* MacTypeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacTypeApp.swift; sourceTree = "<group>"; };
+		6FE6B53E05CBA5943566F86C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		704A65EF71A4413D09721D23 /* KeyStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStateTests.swift; sourceTree = "<group>"; };
+		758269DF967F241E81B5B74C /* KeyMapServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyMapServiceTests.swift; sourceTree = "<group>"; };
+		81906F06E99D65B99E0BDB78 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		81D88730941D0428F79BC881 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		825FAB6F16BE82E837B6A79B /* KeyNormalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyNormalizer.swift; sourceTree = "<group>"; };
+		83F3F1EAB3C9B0F269C2B955 /* MacType.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacType.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD8AE9C0358066EBD07DF9A /* ZhuyinPracticeResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhuyinPracticeResult.swift; sourceTree = "<group>"; };
+		8EA889C39DE91FBC7E81BD94 /* KeyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyState.swift; sourceTree = "<group>"; };
+		8F9806B9B43B0DED14A5814B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		90108D541A3DC6A41B9D5001 /* PracticeEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeEngineTests.swift; sourceTree = "<group>"; };
+		9054600FBE9171FEAAB049AD /* TypingErrorRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingErrorRecord.swift; sourceTree = "<group>"; };
+		90C6DF4CBB3E37F2BBB1D907 /* KeyNormalizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyNormalizerTests.swift; sourceTree = "<group>"; };
+		A0F4D87EF9D11ECC58ADC020 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A2CA29A41B8881B06A9374FE /* StatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsTests.swift; sourceTree = "<group>"; };
+		A757613B9FDBC515F6D72181 /* LessonGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonGenerator.swift; sourceTree = "<group>"; };
+		A84DB6FD074EC09E95829661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B670E490E19CBF8FAD68811C /* WeakFingerResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakFingerResult.swift; sourceTree = "<group>"; };
+		B9083A80E06C49A5257CD73C /* ZhuyinKeyMapServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhuyinKeyMapServiceTests.swift; sourceTree = "<group>"; };
+		BDD7424B3478373BE025CF4A /* MacTypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacTypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3993D2559571E2CE5D0D8C8 /* PracticeResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeResult.swift; sourceTree = "<group>"; };
+		DC237D9A787AC04C81252C55 /* FileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStore.swift; sourceTree = "<group>"; };
+		DD532B92B16835722F726761 /* PracticeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeEngine.swift; sourceTree = "<group>"; };
+		E1B7B128396F78BA917A2772 /* WeakFingerTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakFingerTarget.swift; sourceTree = "<group>"; };
+		EC3F1CF382F7241DF3B05081 /* WeakFingerPracticeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakFingerPracticeEngine.swift; sourceTree = "<group>"; };
+		F0C9A705194E5544E4191834 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F405FAA872F28FEA4FADA3CD /* TypingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingTextField.swift; sourceTree = "<group>"; };
+		F90B2819F85B7C7E59C125ED /* TypingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingMode.swift; sourceTree = "<group>"; };
+		FFB06D6B34548B763AAF09EC /* Finger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		031D78A1099015630B791298 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				DC237D9A787AC04C81252C55 /* FileStore.swift */,
+				A0F4D87EF9D11ECC58ADC020 /* Models.swift */,
+				66A82C378163F6B86E93B1FA /* StatsStore.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		03825F30968A6F35C6A1E818 = {
+			isa = PBXGroup;
+			children = (
+				39DFE52817C418368B39FA0B /* Resources */,
+				9AA5CCF4FB38394EF208A5A6 /* Sources */,
+				8F4C4DD333171A9C638D376C /* Products */,
+				6BAAB75AAF8599B646AAC842 /* MacTypeTests */,
+			);
+			sourceTree = "<group>";
+		};
+		1843C75084426858FC6BB46F /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FFB06D6B34548B763AAF09EC /* Finger.swift */,
+				27482E5462C8804A1B54C205 /* KeyboardKey.swift */,
+				0D576DBD875DA762ED0109AD /* KeyboardLayout.swift */,
+				2A236E15963A68F2C430BB92 /* KeyMapService.swift */,
+				8EA889C39DE91FBC7E81BD94 /* KeyState.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		39DFE52817C418368B39FA0B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6FE6B53E05CBA5943566F86C /* Assets.xcassets */,
+				04EDE2B062AFFDD3D67BB42B /* finger_keymap.json */,
+				682D3CF58ABD10928EF4C8C1 /* Info.plist */,
+				435BFF8FAFC1444DFBA2A3E4 /* zhuyin_keymap.json */,
+			);
+			name = Resources;
+			path = MacType/Resources;
+			sourceTree = "<group>";
+		};
+		3E3ACB0BC1F7E2E9F8E866A1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				69B92544498F110334FF6437 /* MacTypeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6BAAB75AAF8599B646AAC842 /* MacTypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A84DB6FD074EC09E95829661 /* Info.plist */,
+				758269DF967F241E81B5B74C /* KeyMapServiceTests.swift */,
+				90C6DF4CBB3E37F2BBB1D907 /* KeyNormalizerTests.swift */,
+				704A65EF71A4413D09721D23 /* KeyStateTests.swift */,
+				21F9603440A6E493C230763C /* LessonGeneratorTests.swift */,
+				90108D541A3DC6A41B9D5001 /* PracticeEngineTests.swift */,
+				A2CA29A41B8881B06A9374FE /* StatsTests.swift */,
+				4151CFC27B0BA782DE607421 /* WeakFingerPracticeEngineTests.swift */,
+				2CB7C38D90E8C9D4FB1228E1 /* WeakFingerTargetTests.swift */,
+				B9083A80E06C49A5257CD73C /* ZhuyinKeyMapServiceTests.swift */,
+				697080D34F58B3644AB7D2D3 /* ZhuyinLessonGeneratorTests.swift */,
+				5C6FEC7EAD0ADC6AAA026534 /* ZhuyinPracticeEngineTests.swift */,
+			);
+			path = MacTypeTests;
+			sourceTree = "<group>";
+		};
+		756255E2953025241C0A850A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F90B2819F85B7C7E59C125ED /* TypingMode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F4C4DD333171A9C638D376C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83F3F1EAB3C9B0F269C2B955 /* MacType.app */,
+				BDD7424B3478373BE025CF4A /* MacTypeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		948FB5A093AEA5D36DC95E58 /* Zhuyin */ = {
+			isa = PBXGroup;
+			children = (
+				1310806867C9548DC03CBC1A /* ZhuyinKeyMapService.swift */,
+				30B648F755BF6673082D2754 /* ZhuyinLessonGenerator.swift */,
+				2D136EF5418952C99947CFCA /* ZhuyinPracticeEngine.swift */,
+				8BD8AE9C0358066EBD07DF9A /* ZhuyinPracticeResult.swift */,
+				5EBE051951A0C875D73F54AB /* ZhuyinSymbol.swift */,
+			);
+			path = Zhuyin;
+			sourceTree = "<group>";
+		};
+		9AA5CCF4FB38394EF208A5A6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3E3ACB0BC1F7E2E9F8E866A1 /* App */,
+				1843C75084426858FC6BB46F /* Keyboard */,
+				756255E2953025241C0A850A /* Models */,
+				DF36CE0F36F85ED96CA1891E /* Practice */,
+				031D78A1099015630B791298 /* Stats */,
+				FF51821187602A352F45D99B /* Views */,
+				FD02FD3CD8835EDFCED53C5B /* WeakFinger */,
+				948FB5A093AEA5D36DC95E58 /* Zhuyin */,
+			);
+			name = Sources;
+			path = MacType/Sources;
+			sourceTree = "<group>";
+		};
+		DF36CE0F36F85ED96CA1891E /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				825FAB6F16BE82E837B6A79B /* KeyNormalizer.swift */,
+				DD532B92B16835722F726761 /* PracticeEngine.swift */,
+				C3993D2559571E2CE5D0D8C8 /* PracticeResult.swift */,
+				9054600FBE9171FEAAB049AD /* TypingErrorRecord.swift */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		FD02FD3CD8835EDFCED53C5B /* WeakFinger */ = {
+			isa = PBXGroup;
+			children = (
+				A757613B9FDBC515F6D72181 /* LessonGenerator.swift */,
+				EC3F1CF382F7241DF3B05081 /* WeakFingerPracticeEngine.swift */,
+				B670E490E19CBF8FAD68811C /* WeakFingerResult.swift */,
+				E1B7B128396F78BA917A2772 /* WeakFingerTarget.swift */,
+			);
+			path = WeakFinger;
+			sourceTree = "<group>";
+		};
+		FF51821187602A352F45D99B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0C9A705194E5544E4191834 /* DashboardView.swift */,
+				48C310296E13736C3A983E3C /* EnglishPracticeView.swift */,
+				81D88730941D0428F79BC881 /* KeyboardView.swift */,
+				5D48F9E6E3E545F5EFAC2A84 /* RootView.swift */,
+				8F9806B9B43B0DED14A5814B /* SettingsView.swift */,
+				81906F06E99D65B99E0BDB78 /* SidebarView.swift */,
+				331A2FBA02A73FC47900CB22 /* StatsView.swift */,
+				F405FAA872F28FEA4FADA3CD /* TypingTextField.swift */,
+				050D3DE5F380DC5CB7BE1385 /* WeakFingerPracticeView.swift */,
+				4CF132348A4F5360CB6A5608 /* ZhuyinKeyPracticeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81273A98F77FE02AD7052235 /* MacType */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE430D16C0B9D15A6E88C46 /* Build configuration list for PBXNativeTarget "MacType" */;
+			buildPhases = (
+				B557B3CB97DA0E1907F42A59 /* Sources */,
+				93E6C089B2B51C1BE17F982F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacType;
+			packageProductDependencies = (
+			);
+			productName = MacType;
+			productReference = 83F3F1EAB3C9B0F269C2B955 /* MacType.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E47D7453D3281F5831ACE2AC /* MacTypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F78B6093AE16DC39DC17B19 /* Build configuration list for PBXNativeTarget "MacTypeTests" */;
+			buildPhases = (
+				7B642E65F35B70DBEC59FC55 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12B1848B043239820D4A148B /* PBXTargetDependency */,
+			);
+			name = MacTypeTests;
+			packageProductDependencies = (
+			);
+			productName = MacTypeTests;
+			productReference = BDD7424B3478373BE025CF4A /* MacTypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC5CF57934B15E0193AAF4F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2610;
+			};
+			buildConfigurationList = 6213EAA876C7274A6A95E75B /* Build configuration list for PBXProject "MacType" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 03825F30968A6F35C6A1E818;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8F4C4DD333171A9C638D376C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81273A98F77FE02AD7052235 /* MacType */,
+				E47D7453D3281F5831ACE2AC /* MacTypeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93E6C089B2B51C1BE17F982F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335DDA22D5EA3AF56C417B88 /* Assets.xcassets in Resources */,
+				D9FF63B1867E0B468F8C9110 /* finger_keymap.json in Resources */,
+				5CA6300BD05C4D6929696D8F /* zhuyin_keymap.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B642E65F35B70DBEC59FC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5896B804192E74342A6AED7 /* KeyMapServiceTests.swift in Sources */,
+				074EE648B17E03FB33EBD236 /* KeyNormalizerTests.swift in Sources */,
+				F4FF5BBD3EE9F9ABF6233236 /* KeyStateTests.swift in Sources */,
+				47D81AE865A070FAADE5BA24 /* LessonGeneratorTests.swift in Sources */,
+				B19D79BF1023A31E8799BA26 /* PracticeEngineTests.swift in Sources */,
+				A3AB3B9625898BDBE204071F /* StatsTests.swift in Sources */,
+				66C88575C02F940C1AD11817 /* WeakFingerPracticeEngineTests.swift in Sources */,
+				AD66D055257A182B031848BC /* WeakFingerTargetTests.swift in Sources */,
+				870CDAEDD1617C88229A6D81 /* ZhuyinKeyMapServiceTests.swift in Sources */,
+				5E0BE364CADC80EA1D088FB5 /* ZhuyinLessonGeneratorTests.swift in Sources */,
+				600549AD8021415378A1DAD2 /* ZhuyinPracticeEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B557B3CB97DA0E1907F42A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF043BC8604AC8D249A1077 /* DashboardView.swift in Sources */,
+				6274062B1B2BC1D792601E8F /* EnglishPracticeView.swift in Sources */,
+				8D150422BA93B78CE8F762A7 /* FileStore.swift in Sources */,
+				855DBFD2D38D2DF418438821 /* Finger.swift in Sources */,
+				9E293B4EE51160B72BE037B8 /* KeyMapService.swift in Sources */,
+				56B7A91C336E199C2A0724F7 /* KeyNormalizer.swift in Sources */,
+				169E8E8D420D40499CE394C1 /* KeyState.swift in Sources */,
+				1081427F1D73F44C85533E45 /* KeyboardKey.swift in Sources */,
+				3E0B79CCF3DE27E6DA94E6F1 /* KeyboardLayout.swift in Sources */,
+				E1147D6D29CE8342E106A1CB /* KeyboardView.swift in Sources */,
+				AA2A8F494178B6A0E88E3796 /* LessonGenerator.swift in Sources */,
+				CA403589E4FF2C85B0CF2D8C /* MacTypeApp.swift in Sources */,
+				3D38F195657D9D69E2B4F35D /* Models.swift in Sources */,
+				8F73247E63888CF02B15466C /* PracticeEngine.swift in Sources */,
+				4CBB11D7E6C2FB70BDC37DD5 /* PracticeResult.swift in Sources */,
+				C4F0C5BEF257E493FD1E1EA6 /* RootView.swift in Sources */,
+				BF9AF518E66E4519BDF9A7E2 /* SettingsView.swift in Sources */,
+				F34636B957A1571FE04F47F2 /* SidebarView.swift in Sources */,
+				6666B3740565BCC99AB80D2E /* StatsStore.swift in Sources */,
+				B36949C6132E421734617575 /* StatsView.swift in Sources */,
+				0753D72E60AE224BCF5236FE /* TypingErrorRecord.swift in Sources */,
+				8ADAE6A3990BA93F9F0288CE /* TypingMode.swift in Sources */,
+				E5746BDE0180E880C15E800E /* TypingTextField.swift in Sources */,
+				A6A9274CF75C7C0630782556 /* WeakFingerPracticeEngine.swift in Sources */,
+				9BE51FE7D6655CB037536225 /* WeakFingerPracticeView.swift in Sources */,
+				E86F1E3D6D8711E6AFE4BC1A /* WeakFingerResult.swift in Sources */,
+				FB80E5B3A114085E6DCBC3CB /* WeakFingerTarget.swift in Sources */,
+				313780C64FBD0A41D97CD389 /* ZhuyinKeyMapService.swift in Sources */,
+				5847D6A1BC1CF16B937D7ADF /* ZhuyinKeyPracticeView.swift in Sources */,
+				EFB44702A32C75D5F98F20B9 /* ZhuyinLessonGenerator.swift in Sources */,
+				A824CBF90C920A85A7434F5C /* ZhuyinPracticeEngine.swift in Sources */,
+				262EB532EF04457D31A9978F /* ZhuyinPracticeResult.swift in Sources */,
+				9A10B9D81B172965D908DCDE /* ZhuyinSymbol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12B1848B043239820D4A148B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81273A98F77FE02AD7052235 /* MacType */;
+			targetProxy = 35425C0D33875E2905574D81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AC4C3D8801B261A3A8D4C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MacType/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactype.MacType;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2F54B386E9052E0FBEF517FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MacTypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactype.MacTypeTests;
+				PRODUCT_NAME = MacTypeTests;
+				SDKROOT = macosx;
+				SWIFT_MODULE_NAME = MacTypeTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacType.app/Contents/MacOS/MacType";
+			};
+			name = Release;
+		};
+		5400C81CCD1FF98E005F2F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = MacType;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		ADF2116BD67BF1BEE486A9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MacType/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactype.MacType;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C455CBC67216E1344FA1A09E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = MacType;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		D9D19FCD9ADB21EC4AE408F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MacTypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactype.MacTypeTests;
+				PRODUCT_NAME = MacTypeTests;
+				SDKROOT = macosx;
+				SWIFT_MODULE_NAME = MacTypeTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacType.app/Contents/MacOS/MacType";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F78B6093AE16DC39DC17B19 /* Build configuration list for PBXNativeTarget "MacTypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D19FCD9ADB21EC4AE408F7 /* Debug */,
+				2F54B386E9052E0FBEF517FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5CE430D16C0B9D15A6E88C46 /* Build configuration list for PBXNativeTarget "MacType" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AC4C3D8801B261A3A8D4C8 /* Debug */,
+				ADF2116BD67BF1BEE486A9A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6213EAA876C7274A6A95E75B /* Build configuration list for PBXProject "MacType" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5400C81CCD1FF98E005F2F63 /* Debug */,
+				C455CBC67216E1344FA1A09E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC5CF57934B15E0193AAF4F3 /* Project object */;
+}
